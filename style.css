@@ -1,0 +1,185 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+/* ***********************************************************************
+  **************************************************************************/
+.log {
+  width: 70px;
+  height: 70px;
+  padding-top: 7px;
+  box-shadow:  1px 1px 7px 7px  #f4a261;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.log a {
+  font-family: 'Berkshire Swash', cursive !important;
+}
+
+.log:hover {
+  box-shadow:  1px 1px 7px 7px  #f4a261;
+}
+.navbar {
+  border-bottom: 2px solid #f4a261 !important;
+  box-shadow: 2px 2px 7px #999;
+}
+
+.navbar-brand {
+  font-family: "Berkshire Swash", cursive !important;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 5px !important;
+  text-align: center !important;
+  border-radius: 3px;
+}
+
+.nav-item:hover {
+    box-shadow:  1px 1px 4px  4px #f4a261 !important;
+    padding: 3px;
+}
+
+.nav-link {
+  color: #fff !important;
+  letter-spacing: 1px !important;
+  font-size:  1.2rem;
+}
+
+
+.sec-top {
+  text-align: center !important;
+  background-size: cover;
+  background-position: top;
+  padding: 100px 30px;
+}
+
+.profile-image {
+  width: 250px !important;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  border: 4px solid #f4a261;
+  box-shadow: 2px 2px 10px #f4a261 !important;
+}
+
+.top-con {
+  padding: 50px 0 !important;
+  position: relative;
+  display: block !important;
+}
+
+.text-warn {
+  color: darkorange;
+}
+
+.lead {
+  text-align: left !important;
+  color: #fff !important;
+  
+}
+.h1 {
+  color: #fff !important;
+}
+.p-ozet {
+  padding: 100px 30px;
+}
+
+.card{
+  height: 450px !important;
+  box-shadow: 2px 2px 7px black !important;
+}
+
+.btn {
+  box-shadow: 2px 2px 7px #333 !important;
+}
+.back-2 {
+  background-image: url(images/back2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-green {
+  background: #208d80;
+}
+.education {
+  line-height: 3rem;
+}
+
+.bg-blue {
+  background: #faa307;
+}
+
+.bg-red {
+  background: #e63946ed;
+}
+
+.edu {
+  margin-top: 20px;
+}
+.exp {
+  margin-top: 20px;
+}
+.pers {
+  margin-top: 20px;
+}
+
+.edu-sec {
+  background-image: url(images/edu.jpg);
+  background-size: cover;
+  background-position-y: center; 
+  padding: 150px 20px;
+}
+
+.bg-hobby {
+  background-image: linear-gradient(120deg, darkred, #4d194d);
+  padding: 80px 20px 120px 20px;
+}
+
+.bg-exp {
+  background-image: linear-gradient(60deg, #ffbf69, #ff9f1c);
+  padding: 80px 20px 120px 20px;
+}
+
+.contact-div {
+  background-image: url(images/tel.jpg);
+  background-size: cover;
+  background-position-y: -130px;
+  padding: 80px 20px 120px 20px;
+}
+.contact-con {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and ( max-width: 950px){
+  .contact-div {
+     padding: 80px 10px 80px 50px;
+     background-position-y: 0px;
+     background-position-x: -100px;
+  }
+  .contact-con {
+      width: 100%;
+      padding: 0;
+  }
+
+}
